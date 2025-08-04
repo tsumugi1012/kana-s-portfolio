@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my protfolio</title>
+  <link rel="icon" href="img/redpanda.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- フォント読み込み -->
+<link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+<!-- css読み込み-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="wave-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#FAEDFA" fill-opacity="1"
+        d="M0,320L16,277.3C32,235,64,149,96,101.3C128,53,160,43,192,74.7C224,107,256,181,
+        288,202.7C320,224,352,192,384,154.7C416,117,448,75,480,90.7C512,107,544,181,
+        576,197.3C608,213,640,171,672,133.3C704,96,736,64,768,85.3C800,107,832,181,
+        864,202.7C896,224,928,192,960,160C992,128,1024,96,1056,112C1088,128,1120,192,
+        1152,234.7C1184,277,1216,299,1248,272C1280,245,1312,171,1344,138.7C1376,107,
+        1408,117,1424,122.7L1440,128L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,
+        1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,
+        896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,
+        512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,
+        128,0,96,0C64,0,32,0,16,0L0,0Z">
+      </path>
+    </svg>
+  </div>
+
+  <header>
+    <img src="img/kana'sportofolio.png" alt="title" class="title">
+    <!--　サブタイトル -->
+    <p class="subtitle">Web Development / Creative Design</p>
+    <!--　メニュー -->
+    <nav class="menu">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!--　アイコンー -->
+    <div class="icon"><img src="img/profile.JPG" alt=""></div>
+  </header>
+
+  <main>
+  <section class="about-container">
+    <div class="about-left">
+      <div class="about-title-wrap">
+        <h2 id="about" class="about-title about-text">ABOUT</h2>
+      </div>
+      <p><span class="label">name :</span> <span class="value">Kana Yasunaga</span></p>
+      <p><span class="label">location:</span> <span class="value">HyogoKobe</span></p>
+      <p><span class="label">age:</span> <span class="value">23</span></p>
+      <p><span class="label">learning :</span> <span class="value">HTML, CSS and JavaScript since 2024</span></p>
+      <p><span class="label">goal:</span></p>
+    </div>
+    <div class="about-right">
+      <img src="img/redpanda.jpeg" alt="Red Panda">
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2 id="skills" class="skills-title">SKILLS</h2>
+    <div class="skill-boxes">
+      <div class="box">
+        <h3>HTML / CSS</h3>
+        <ul>
+          <li>見出しやリスト、フォームなどの基本的構造が作れます。</li>
+          <li>FlexboxやGridの実装</li>
+          <li>レイアウト調整も可能です。</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>JavaScript</h3>
+        <ul>
+          <li>ボタンを押した時の動き・リストの追加・削除など簡単なDOM操作やイベント処理ができます。</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Responsive Design</h3>
+        <ul>
+          <li>スマホやPCなど、画面サイズに合わせたレイアウト調整ができます。</li>
+          <li>メディアクエリやflexなどを使って対応しています。</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Git / GitHub</h3>
+        <ul>
+          <li>自分のコードを保存、共有して作品を公開できるようにしています。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <section class="works">
+    <h2 id="works" class="works-title">WORKS</h2>
+  
+    <div class="works-container">
+  
+      <div class="work-item">
+        <div class="profile-wrap">
+          <img src="img/profilepage.png" alt="サンプル" class="profile">
+        </div>
+        <p class="work-tech">使用技術:HTML / CSS（Flexbox・レスポンシブ対応）<br>/ JavaScript（DOM操作・イベント処理）</p>
+
+        <a href="https://tsumugi1012.github.io/plofiles/" target="_blank">
+        <img src="img/check.png" alt="Check!" class="check">
+      </a>
+      </div>
+
+      <div class="work-item">
+        <div class="profile-wrap">
+          <img src="img/schedule.png" alt="サンプル" class="profile">
+        </div>
+        <p class="work-tech">使用技術:HTML / CSS（Flexbox・レスポンシブ対応）<br>/ JavaScript（DOM操作・イベント処理）</p>
+        <a href="https://tsumugi1012.github.io/my-schedule_copy/" target="_blank">
+        <img src="img/check.png" alt="Check!" class="check">
+      </a>
+      </div>
+  
+      <div class="work-item">
+        <div class="profile-wrap">
+          <img src="img/tora.png" alt="サンプル" class="profile">
+        </div>
+        <p class="work-tech">使用技術:HTML / CSS（Flexbox・レスポンシブ対応）<br>/ JavaScript（DOM操作・イベント処理）</p>
+        <a href="https://tsumugi1012.github.io/TOPAPRPJECT/">
+        <img src="img/check.png" alt="Check!" class="check">
+      </a>
+      </div>
+  
+    </div> 
+  </section>
+
+  <section class="contact">
+    <h2 id="contact" class="contact-title">CONTACT</h2>
+    <div class="info-wrap">
+      <p class="info">お気軽にご連絡ください✨</p>
+    </div>
+
+    <div class="insta">
+      <p class="insta-text">Instagram</p>
+    </div>
+    
+    <div class="account">
+      <p class="account-text">kana_redpanda</p>
+    </div>
+
+    <div class="insta-wrap">
+      <a href="https://www.instagram.com/kana_redpanda?igsh=MTloYXozcjU0ODVwdA==" target="_blank">
+        <img src="img/instaicon.png" alt="Instagramアイコン" class="insta-icon">
+      </a>
+      <img src="img/click.png" alt="Click!矢印" class="click-icon">
+    </div>
+  </section>
+</main>
+
+  <footer id="footer">
+    <p>&copy; 2025 protfolio</p>
+  </footer>
+</body>
+</html>

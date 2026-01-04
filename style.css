@@ -255,11 +255,15 @@ html {
   font-family: 'Quicksand', sans-serif;
   text-align: left;
   font-size: 12px;
-  color: #FCB8FC;
+  color: #B36D4D;
   margin-top: 10px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
+
+.work-tech  strong{
+  color: #7b5441;
+}
 .contact-title {
   font-family: 'Ribeye Marrow', cursive;
   color: #E08B63;
